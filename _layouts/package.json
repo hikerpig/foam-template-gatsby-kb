@@ -1,0 +1,20 @@
+{
+  "name": "foam-template-gatsby-kb",
+  "version": "1.0.0",
+  "description": "A foam template using gatsby-theme-kb for publishing you knowledge base",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve"
+  },
+  "keywords": [
+    "foam"
+  ],
+  "author": "chenmin",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.31.1",
+    "gatsby-theme-kb": "^0.2.3"
+  }
+}
