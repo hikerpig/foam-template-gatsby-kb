@@ -23,8 +23,8 @@ Check the `_layouts/gatsby-config.js` file, and there is some configs you should
 
 ```js
 module.exports = {
-  pathPrefix: `/foam-template-gatsby-kb`, // a. If you are using github pages, this should be the name of your repo
-  // pathPrefix: `/`, // b. If you are using Netlify/Vercel, your can keep it this way
+  pathPrefix: `/`, // a. If you are using Netlify/Vercel, your can keep it this way
+  // pathPrefix: `/foam-template-gatsby-kb`, // b. If you are using github pages, this should be the name of your repo
   siteMetadata: {
     // some SEO configs using by gatsby-theme-kb
     title: `Foam`, // Replace it with your site's title
@@ -52,6 +52,28 @@ module.exports = {
 
 For more available theme options, check [gatsby-theme-kb README](https://github.com/hikerpig/gatsby-project-kb/tree/master/packages/gatsby-theme-kb).
 
+### Deploy
+
+#### 1. To Vercel
+
+Check the [demo of this repo](https://foam-template-gatsby-kb.vercel.app/) in Vercel.
+
+Goto [New Project](https://vercel.com/new) page of Vercel, import your own repo in github (after connecting your github to Vercel, of course).
+
+1. While configuring the site, select `_layouts`  as your source code directory.
+
+![](https://i.loli.net/2021/01/28/pMxdXwuYGzF5LDg.png)
+
+2. Select `Gatsby.js` as 'FRAMEWORK PRESET'.
+
+![](https://i.loli.net/2021/01/28/Ccw4a9l8zeJxDXt.png)
+
+Then  click the 'Deploy' button of the form, you will see Vercel building and deploying your site.
+
+<!-- #### 2. To Github Pages
+
+This is well configured in `.github/workflows/build.yml`, once you push the `master` branch, github actions will do it for you.
+ -->
 ## Using Foam
 
 We've created a few Bubbles (markdown documents) to get you started.
