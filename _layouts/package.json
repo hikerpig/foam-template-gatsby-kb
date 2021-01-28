@@ -15,6 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "gatsby": "^2.31.1",
-    "gatsby-theme-kb": "^0.2.3"
+    "gatsby-theme-kb": "latest"
   }
 }
