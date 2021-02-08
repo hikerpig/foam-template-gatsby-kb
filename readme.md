@@ -82,6 +82,14 @@ We've created a few Bubbles (markdown documents) to get you started.
 - [[foam-tips]] - tips to get the most out of your Foam workspace
 - [[todo]] - a place to keep track of things to do
 
+### Important configurations for foam
+
+You may need to configure Foam to work with this template, for the config `foam.edit.linkReferenceDefinitions`:
+
+- `"withoutExtensions"`, this is the default option, the generated definition url will not include the `md` extension part.
+- `"off"`, with this option selected, Foam won't generate link definitions in the bottom of the document, this might be inconvenient for you to navigate across your files on Github, but totally fine with gatsby-theme-kb.
+
+
 ## Note on `[[wiki-links]]`
 
 ⚠️ Until [foambubble/foam#16](https://github.com/foambubble/foam/issues/16) is resolved, `[[wiki-links]]` links (like the links above) won't work in the GitHub Markdown preview (i.e. this Readme on github.com).
