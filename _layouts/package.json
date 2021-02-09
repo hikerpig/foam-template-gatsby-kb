@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "gatsby": "^2.31.1",
+    "gatsby-plugin-copy-files-enhanced": "^1.1.1",
     "gatsby-theme-kb": "latest"
   }
 }
