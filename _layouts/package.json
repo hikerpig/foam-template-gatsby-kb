@@ -16,6 +16,7 @@
   "dependencies": {
     "gatsby": "^2.31.1",
     "gatsby-plugin-copy-files-enhanced": "^1.1.1",
+    "gatsby-remark-copy-linked-files": "^2.10.0",
     "gatsby-theme-kb": "latest"
   }
 }

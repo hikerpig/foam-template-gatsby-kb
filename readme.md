@@ -44,6 +44,17 @@ module.exports = {
           "**/.vscode/**",
           "**/.cache/**",
         ],
+        // this is an option for extending `gatsby-plugin-mdx` options inside `gatsby-theme-kb`,
+        // so you can have your relative referenced files served, e.g. '../assets/img.png'.
+        getPluginMdx(defaultPluginMdx) {
+          defaultPluginMdx.options.gatsbyRemarkPlugins.push({
+            resolve: `gatsby-remark-copy-linked-files`,
+            options: {
+              ignoreFileExtensions: ['md', 'mdx'],
+            },
+          })
+          return defaultPluginMdx
+        },
       },
     },
     {
