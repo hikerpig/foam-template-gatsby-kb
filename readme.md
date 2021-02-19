@@ -76,7 +76,7 @@ For more available theme options, check [gatsby-theme-kb README](https://github.
 
 ### Deploy
 
-#### 1. To Vercel
+#### Option 1. To Vercel
 
 Check the [demo of this repo](https://foam-template-gatsby-kb.vercel.app/) in Vercel.
 
@@ -92,10 +92,14 @@ Goto [New Project](https://vercel.com/new) page of Vercel, import your own repo 
 
 Then  click the 'Deploy' button of the form, you will see Vercel building and deploying your site.
 
-<!-- #### 2. To Github Pages
+#### Option 2. To Github Pages
 
-This is well configured in `.github/workflows/build.yml`, once you push the `master` branch, github actions will do it for you.
- -->
+At first you need to enable GitHub Pages in your repo's settings, set `gh-pages` branch as source.
+
+And once you push the `master` branch, github actions will build the site and add generated files to `gh-pages` branch. The action workflow config is located in `.github/workflows/Deploy.yml`. It comes with you when you fork this repository, if you don't need it or want to get rid  the `gh-pages` noise, just delete the file.
+
+After the building is done, you can visit your site in `https://{yourname}.github.io/{your-repo-name}/`, e.g. [https://hikerpig.github.io/foam-template-gatsby-kb/](https://hikerpig.github.io/foam-template-gatsby-kb/).
+
 ## Using Foam
 
 We've created a few Bubbles (markdown documents) to get you started.
@@ -112,7 +116,6 @@ You may need to configure Foam to work with this template, for the config `foam.
 
 - `"withoutExtensions"`, this is the default option, the generated definition url will not include the `md` extension part.
 - `"off"`, with this option selected, Foam won't generate link definitions in the bottom of the document, this might be inconvenient for you to navigate across your files on Github, but totally fine with gatsby-theme-kb.
-
 
 ## Note on `[[wiki-links]]`
 
