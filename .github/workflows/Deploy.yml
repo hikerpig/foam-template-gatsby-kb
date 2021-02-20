@@ -43,7 +43,7 @@ jobs:
         run: yarn build
         working-directory: _layouts
         env:
-          PATH_PREFIX: /$REPOSITORY_NAME
+          PATH_PREFIX: /${{ env.REPOSITORY_NAME }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
