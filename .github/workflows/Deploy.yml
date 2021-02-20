@@ -33,11 +33,15 @@ jobs:
         run: yarn
         working-directory: _layouts
 
+      - name: Get repository name
+        run: echo ::set-env name=REPOSITORY_NAME::$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}')
+        shell: bash
+
       - name: Build Site
         run: yarn build
         working-directory: _layouts
         env:
-          PATH_PREFIX: /${{ github.repository }}
+          PATH_PREFIX: /$REPOSITORY_NAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
