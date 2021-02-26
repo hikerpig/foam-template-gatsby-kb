@@ -1,3 +1,7 @@
+# 🚥 !Notice!
+
+This is a demo of [foam-template-gatsby-kb](https://github.com/hikerpig/foam-template-gatsby-kb) using a (maybe) outdated version of Foam's docs, if you want to learn Foam vscode usage or other tutorials, please check [Foam's official documents](https://foambubble.github.io/foam/).
+
 # Foam
 
 **Foam** is a personal knowledge management and sharing system inspired by [Roam Research](https://roamresearch.com/), built on [Visual Studio Code](https://code.visualstudio.com/) and [GitHub](https://github.com/).
@@ -10,72 +14,11 @@ You can use **Foam** for organising your research, keeping re-discoverable notes
   <b>New!</b> Join <a href="https://foambubble.github.io/join-discord/w" target="_blank">Foam community Discord</a> for users and contributors!
 </p>
 
-Check the repo for [latest gatsby-config.js](https://github.com/hikerpig/foam-template-gatsby-kb/blob/master/_layouts/gatsby-config.js).
+## Table of Contents
 
-```js
-module.exports = {
-  pathPrefix: `/`, // a. If you are using Netlify/Vercel, your can keep it this way
-  // pathPrefix: `/foam-template-gatsby-kb`, // b. If you are using github pages, this should be the name of your repo
-  siteMetadata: {
-    // some SEO configs using by gatsby-theme-kb
-    title: `Foam`, // Replace it with your site's title
-    author: `Your Name`, // Replace it with your name
-    description: `My personal knowledge base`, // Replace it with your site's description
-  },
-  plugins: [
-    {
-      resolve: `gatsby-theme-kb`,
-      options: {
-        rootNote: "/readme",
-        contentPath: `${__dirname}/..`,
-        ignore: [
-          "**/_layouts/**",
-          "**/.git/**",
-          "**/.github/**",
-          "**/.vscode/**",
-          "**/.cache/**",
-        ],
-        // this is an option for extending `gatsby-plugin-mdx` options inside `gatsby-theme-kb`,
-        // so you can have your relative referenced files served, e.g. '../assets/img.png'.
-        getPluginMdx(defaultPluginMdx) {
-          defaultPluginMdx.options.gatsbyRemarkPlugins.push({
-            resolve: `gatsby-remark-copy-linked-files`,
-            options: {
-              ignoreFileExtensions: ['md', 'mdx'],
-            },
-          })
-          return defaultPluginMdx
-        },
-      },
-    },
-    {
-      // this plugin makes sure your static files will be served by gatsby,
-      // if you have multiple directories, copy this plugin section and specify other directory
-      // check https://github.com/csath/gatsby-plugin-copy-files-enhanced to find docs for this plugin
-      resolve: 'gatsby-plugin-copy-files-enhanced',
-      options: {
-        source: path.resolve(__dirname, `../assets`),
-        destination: '/assets',
-        purge: false,
-      },
-    },
-  ],
-}
-```
-
-### About Syntax highlight
-
-The default gatsby config has a simple support of codeblock syntax highlight through `gatsby-remark-prismjs` and some css file. If you have other preference, feel free to remove those configs and add your own.
-
-There is an example of shiki and twoslash mentioned in [this issue](https://github.com/hikerpig/foam-template-gatsby-kb/issues/5#issuecomment-782902350).
-
-### More options
-
-For more available theme options, check [gatsby-theme-kb README](https://github.com/hikerpig/gatsby-project-kb/tree/master/packages/gatsby-theme-kb).
-
+- [🚥 !Notice!](#-notice)
 - [Foam](#foam)
-    - [About Syntax highlight](#about-syntax-highlight)
-    - [More options](#more-options)
+  - [Table of Contents](#table-of-contents)
   - [How do I use Foam?](#how-do-i-use-foam)
   - [What's in a Foam?](#whats-in-a-foam)
   - [Getting started](#getting-started)
