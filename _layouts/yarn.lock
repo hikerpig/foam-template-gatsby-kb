@@ -3508,6 +3508,15 @@ cli-width@^3.0.0:
   resolved "https://registry.npmjs.org/cli-width/-/cli-width-3.0.0.tgz#a2f48437a2caa9a22436e794bf071ec9e61cedf6"
   integrity sha512-FxqpkPPwu1HjuN93Omfm4h8uIanXofW0RxVEW3k5RKx+mJJYSthzNhp32Kzxxy3YAEZ/Dc/EWN1vZRY0+kOhbw==
 
+clipboard@^2.0.0:
+  version "2.0.6"
+  resolved "http://bnpm.byted.org/clipboard/-/clipboard-2.0.6.tgz#52921296eec0fdf77ead1749421b21c968647376"
+  integrity sha1-UpISlu7A/fd+rRdJQhshyWhkc3Y=
+  dependencies:
+    good-listener "^1.2.2"
+    select "^1.1.2"
+    tiny-emitter "^2.0.0"
+
 clipboardy@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/clipboardy/-/clipboardy-2.3.0.tgz#3c2903650c68e46a91b388985bc2774287dba290"
@@ -4723,6 +4732,11 @@ delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+
+delegate@^3.1.2:
+  version "3.2.0"
+  resolved "http://bnpm.byted.org/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
+  integrity sha1-tmtxwxWFIuirV0T3INjKDCr1kWY=
 
 delegates@^1.0.0:
   version "1.0.0"
@@ -6513,6 +6527,15 @@ gatsby-remark-double-parenthesis-link@^0.1.2:
     slugify "^1.4.0"
     unist-util-visit "^2.0.2"
 
+gatsby-remark-prismjs@^3.13.0:
+  version "3.13.0"
+  resolved "http://bnpm.byted.org/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.13.0.tgz#010c4f9371154536018d4488ee474066a438a0cb"
+  integrity sha1-AQxPk3EVRTYBjUSI7kdAZqQ4oMs=
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    parse-numeric-range "^0.0.2"
+    unist-util-visit "^1.4.1"
+
 gatsby-remark-wiki-link@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/gatsby-remark-wiki-link/-/gatsby-remark-wiki-link-0.2.0.tgz#58d5e54a1aff500d22cae26480f45266e25987cc"
@@ -6559,10 +6582,10 @@ gatsby-telemetry@^1.10.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-kb@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.npmjs.org/gatsby-theme-kb/-/gatsby-theme-kb-0.4.3.tgz#2e69f2d3941a7055c7341023ea2bd080ad4bf500"
-  integrity sha512-BmrgDfakABHnFDiyep73RmkZAGIyCaaPbMSPimfkxI0veTTojB9Qo09dgAUgPjvJYGVDJYYbgwz3P4Lv7qjZBQ==
+gatsby-theme-kb@latest:
+  version "0.5.1"
+  resolved "http://bnpm.byted.org/gatsby-theme-kb/-/gatsby-theme-kb-0.5.1.tgz#6123425a7022d4592d90d2e0da3743337a5bb4e2"
+  integrity sha1-YSNCWnAi1FktkNLg2jdDM3pbtOI=
   dependencies:
     "@gatsby-project-kb/transformer-wiki-references" "^0.2.1"
     "@mdx-js/mdx" "^1.6.22"
@@ -6587,7 +6610,7 @@ gatsby-theme-kb@^0.4.3:
     gatsby-source-filesystem "^2.5.0"
     gatsby-transformer-remark "^2.12.0"
     gatsby-transformer-sharp "^2.6.0"
-    note-graph "^0.1.4"
+    note-graph "^0.1.5"
     postcss "^8.2.4"
     prop-types "^15.7.2"
     react "^16.12.0"
@@ -7015,6 +7038,13 @@ globby@^6.1.0:
     object-assign "^4.0.1"
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
+
+good-listener@^1.2.2:
+  version "1.2.2"
+  resolved "http://bnpm.byted.org/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
+  integrity sha1-1TswzfkxPf+33JoNR3CWqm0UXFA=
+  dependencies:
+    delegate "^3.1.2"
 
 got@8.3.2:
   version "8.3.2"
@@ -9790,10 +9820,10 @@ normalize-url@^4.1.0:
   resolved "https://registry.npmjs.org/normalize-url/-/normalize-url-4.5.0.tgz#453354087e6ca96957bd8f5baf753f5982142129"
   integrity sha512-2s47yzUxdexf1OhyRi4Em83iQk0aPvwTddtFz4hnSSw9dCEsLEGf6SwIO8ss/19S9iBb5sJaOuTvTGDeZI00BQ==
 
-note-graph@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.npmjs.org/note-graph/-/note-graph-0.1.4.tgz#c7faf1e5c068071be695c599b96426eb03244180"
-  integrity sha512-uE/m90hHcp4fxXOo68wENstqlc5K7yd/P2EgL7I4vCw0t2SQOgv1T55PBoT3q02MRkfcrpMfyrAMYvquDLq/Hg==
+note-graph@^0.1.5:
+  version "0.1.5"
+  resolved "http://bnpm.byted.org/note-graph/-/note-graph-0.1.5.tgz#1a5b2d6cb5a25f1e73ceeb22f31cfb1e19c4bc1a"
+  integrity sha1-GlstbLWiXx5zzusi8xz7HhnEvBo=
   dependencies:
     d3 "^6.2.0"
     d3-color "^2.0.0"
@@ -10342,6 +10372,11 @@ parse-latin@^4.0.0:
     nlcst-to-string "^2.0.0"
     unist-util-modify-children "^2.0.0"
     unist-util-visit-children "^1.0.0"
+
+parse-numeric-range@^0.0.2:
+  version "0.0.2"
+  resolved "http://bnpm.byted.org/parse-numeric-range/-/parse-numeric-range-0.0.2.tgz#b4f09d413c7adbcd987f6e9233c7b4b210c938e4"
+  integrity sha1-tPCdQTx6282Yf26SM8e0shDJOOQ=
 
 parse-passwd@^1.0.0:
   version "1.0.0"
@@ -11122,6 +11157,18 @@ pretty-hrtime@^1.0.3:
   version "1.0.3"
   resolved "https://registry.npmjs.org/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
   integrity sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=
+
+prism-themes@^1.5.0:
+  version "1.5.0"
+  resolved "http://bnpm.byted.org/prism-themes/-/prism-themes-1.5.0.tgz#92925e4aa0ab5e0afefcea1032df7d61bbcdc1a5"
+  integrity sha1-kpJeSqCrXgr+/OoQMt99YbvNwaU=
+
+prismjs@^1.23.0:
+  version "1.23.0"
+  resolved "http://bnpm.byted.org/prismjs/-/prismjs-1.23.0.tgz#d3b3967f7d72440690497652a9d40ff046067f33"
+  integrity sha1-07OWf31yRAaQSXZSqdQP8EYGfzM=
+  optionalDependencies:
+    clipboard "^2.0.0"
 
 probe-image-size@^6.0.0:
   version "6.0.0"
@@ -12182,6 +12229,11 @@ select-hose@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
   integrity sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo=
+
+select@^1.1.2:
+  version "1.1.2"
+  resolved "http://bnpm.byted.org/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
+  integrity sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0=
 
 selfsigned@^1.10.8:
   version "1.10.8"
@@ -13328,6 +13380,11 @@ timsort@^0.3.0:
   resolved "https://registry.npmjs.org/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+tiny-emitter@^2.0.0:
+  version "2.1.0"
+  resolved "http://bnpm.byted.org/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
+  integrity sha1-HRpW7fxRxD6GPLtTgqcjMONVVCM=
+
 tinycolor2@^1.4.1, tinycolor2@^1.4.2:
   version "1.4.2"
   resolved "https://registry.npmjs.org/tinycolor2/-/tinycolor2-1.4.2.tgz#3f6a4d1071ad07676d7fa472e1fac40a719d8803"
@@ -14160,8 +14217,10 @@ watchpack@^1.7.4:
   resolved "https://registry.npmjs.org/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
+    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
+    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"

@@ -1,0 +1,18 @@
+/* ---------------- prism override ---------------------- */
+pre[class*="language-"] {
+  margin: 1em 0;
+}
+
+.dark-mode pre[class*="language-"] {
+  background-color: #252931;
+}
+
+.light-mode pre[class*="language-"] {
+  background-color: #2b2727;
+}
+
+/* ----------------end prism override ------------------- */
+
+code {
+  font-size: 0.9em;
+}
