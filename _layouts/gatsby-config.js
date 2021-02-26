@@ -25,12 +25,20 @@ module.exports = {
           '**/.cache/**',
         ],
         // this is an option for extending `gatsby-plugin-mdx` options inside `gatsby-theme-kb`,
-        // so you can have your relative referenced files served, e.g. '../assets/img.png'.
         getPluginMdx(defaultPluginMdx) {
+          // so you can have your relative referenced files served, e.g. '../assets/img.png'.
           defaultPluginMdx.options.gatsbyRemarkPlugins.push({
             resolve: `gatsby-remark-copy-linked-files`,
             options: {
               ignoreFileExtensions: ['md', 'mdx'],
+            },
+          })
+
+          // an example of syntax highlighting
+          defaultPluginMdx.options.gatsbyRemarkPlugins.push({
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              noInlineHighlight: true,
             },
           })
           return defaultPluginMdx

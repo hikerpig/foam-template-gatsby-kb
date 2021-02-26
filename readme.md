@@ -17,9 +17,11 @@ After setting up the repository, open [.vscode/settings.json](.vscode/settings.j
 
 To learn more about how to use **Foam**, read the [Recipes](https://foambubble.github.io/foam/recipes) bubbles of the Foam documentation workspace.
 
-### Some configurations
+### Some Gatsby configurations
 
 Check the `_layouts/gatsby-config.js` file, and there is some configs you should concern if you want to deploy your site and view it correctly.
+
+Check the repo for [latest gatsby-config.js](https://github.com/hikerpig/foam-template-gatsby-kb/blob/master/_layouts/gatsby-config.js).
 
 ```js
 module.exports = {
@@ -71,6 +73,14 @@ module.exports = {
   ],
 }
 ```
+
+### About Syntax highlight
+
+The default gatsby config has a simple support of codeblock syntax highlight through `gatsby-remark-prismjs` and some css file. If you have other preference, feel free to remove those configs and add your own.
+
+There is an example of shiki and twoslash mentioned in [this issue](https://github.com/hikerpig/foam-template-gatsby-kb/issues/5#issuecomment-782902350).
+
+### More options
 
 For more available theme options, check [gatsby-theme-kb README](https://github.com/hikerpig/gatsby-project-kb/tree/master/packages/gatsby-theme-kb).
 
