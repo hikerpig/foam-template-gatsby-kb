@@ -9,7 +9,6 @@ This list is subject to change. Especially the Git ones.
 - [Markdown Links](https://marketplace.visualstudio.com/items?itemName=tchayen.markdown-links)
 - [Markdown All In One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
-
 ## Extensions For Additional Features
 
 These extensions are not (yet?) defined in `.vscode/extensions.json`, but have been used by others and shown to play nice with Foam.
@@ -22,3 +21,4 @@ These extensions are not (yet?) defined in `.vscode/extensions.json`, but have b
 - [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Markdown Extended](https://marketplace.visualstudio.com/items?itemName=jebbs.markdown-extended) (with `kbd` option disabled, `kbd` turns wiki-links into non-clickable buttons)
 - [GitDoc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) (easy version management via git auto commits)
+- [Markdown Footnotes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-footnotes) (Adds [^footnote] syntax support to VS Code's built-in markdown preview)

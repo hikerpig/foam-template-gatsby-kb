@@ -1,8 +1,9 @@
-# 🚥 !Notice!
-
-This is a demo of [foam-template-gatsby-kb](https://github.com/hikerpig/foam-template-gatsby-kb) using a (maybe) outdated version of Foam's docs, if you want to learn Foam vscode usage or other tutorials, please check [Foam's official documents](https://foambubble.github.io/foam/).
-
 # Foam
+
+> 🚥 !Notice!
+>
+> This is a demo of [foam-template-gatsby-kb](https://github.com/hikerpig/foam-template-gatsby-kb) using a (maybe) outdated version of Foam's docs, if you want to learn Foam vscode usage or other tutorials, please check [Foam's official documents](https://foambubble.github.io/foam/).
+
 
 **Foam** is a personal knowledge management and sharing system inspired by [Roam Research](https://roamresearch.com/), built on [Visual Studio Code](https://code.visualstudio.com/) and [GitHub](https://github.com/).
 
@@ -14,9 +15,13 @@ You can use **Foam** for organising your research, keeping re-discoverable notes
   <b>New!</b> Join <a href="https://foambubble.github.io/join-discord/w" target="_blank">Foam community Discord</a> for users and contributors!
 </p>
 
+<div class="website-only">
+    <a class="github-button" href="https://github.com/foambubble/foam" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star foambubble/foam on GitHub">Star</a>
+    <a class="github-button" href="https://github.com/foambubble/foam-template" data-icon="octicon-repo-template" data-size="large" aria-label="Use this template foambubble/foam-template on GitHub">Use this template</a>
+</div>
+
 ## Table of Contents
 
-- [🚥 !Notice!](#-notice)
 - [Foam](#foam)
   - [Table of Contents](#table-of-contents)
   - [How do I use Foam?](#how-do-i-use-foam)
@@ -31,7 +36,7 @@ You can use **Foam** for organising your research, keeping re-discoverable notes
 
 **Foam** is a tool that supports creating relationships between thoughts and information to help you think better.
 
-![Foam kitchen sink, showing a few of the key features](/assets/images/foam-features-dark-mode-demo.png)
+![Foam kitchen sink, showing a few of the key features](assets/images/foam-features-dark-mode-demo.png)
 
 Whether you want to build a [Second Brain](https://www.buildingasecondbrain.com/) or a [Zettelkasten](https://zettelkasten.de/posts/overview/), write a book, or just get better at long-term learning, **Foam** can help you organise your thoughts if you follow these simple rules:
 
@@ -48,7 +53,7 @@ Like the soapy suds it's named after, **Foam** is mostly air.
 
 1. The editing experience of **Foam** is powered by VS Code, enhanced by workspace settings that glue together [[recommended-extensions]] and preferences optimised for writing and navigating information.
 2. To back up, collaborate on and share your content between devices, Foam pairs well with [GitHub](http://github.com/).
-3. To publish your content, you can set it up to publish to [GitHub Pages](https://pages.github.com/) with zero code and zero config, or to any website hosting platform like [Netlify](http://netlify.com/) or [Vercel](https://vercel.com).
+3. To publish your content, you can set it up to publish to [GitHub Pages](https://pages.github.com/), or to any website hosting platform like [Netlify](http://netlify.com/) or [Vercel](https://vercel.com).
 
 > **Fun fact**: This documentation was researched, written and published using **Foam**.
 
@@ -66,7 +71,7 @@ These instructions assume you have a GitHub account, and you have Visual Studio 
 
 2. [Clone the repository locally](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) and open it in VS Code.
 
-    *Open the repository as a folder using the `File > Open...` menu item. In VS Code, "open workspace" refers to [multi-root workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces).*
+   *Open the repository as a folder using the `File > Open...` menu item. In VS Code, "open workspace" refers to [multi-root workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces).*
 
 3. When prompted to install recommended extensions, click **Install all** (or **Show Recommendations** if you want to review and install them one by one)
 
@@ -82,7 +87,7 @@ Check our [issues on GitHub](http://github.com/foambubble/foam/issues) if you ge
 
 **Foam** doesn't have features in the traditional sense. Out of the box, you have access to all features of VS Code and all the [[recommended-extensions]] you choose to install, but it's up to you to discover what you can do with it!
 
-![Short video of Foam in use](/assets/images/foam-navigation-demo.gif)
+![Short video of Foam in use](assets/images/foam-navigation-demo.gif)
 
 Head over to [[recipes]] for some useful patterns and ideas!
 
@@ -185,6 +190,20 @@ If that sounds like something you're interested in, I'd love to have you along o
     <td align="center"><a href="http://briananglin.me"><img src="https://avatars3.githubusercontent.com/u/2637602?v=4?s=60" width="60px;" alt=""/><br /><sub><b>Brian Anglin</b></sub></a><br /><a href="https://github.com/foambubble/foam/commits?author=anglinb" title="Documentation">📖</a></td>
     <td align="center"><a href="http://deft.work"><img src="https://avatars1.githubusercontent.com/u/1455507?v=4?s=60" width="60px;" alt=""/><br /><sub><b>elswork</b></sub></a><br /><a href="https://github.com/foambubble/foam/commits?author=elswork" title="Documentation">📖</a></td>
     <td align="center"><a href="http://leonh.fr/"><img src="https://avatars.githubusercontent.com/u/19996318?v=4?s=60" width="60px;" alt=""/><br /><sub><b>léon h</b></sub></a><br /><a href="https://github.com/foambubble/foam/commits?author=leonhfr" title="Code">💻</a></td>
+    <td align="center"><a href="https://nygaard.site"><img src="https://avatars.githubusercontent.com/u/4606342?v=4?s=60" width="60px;" alt=""/><br /><sub><b>Nikhil Nygaard</b></sub></a><br /><a href="https://github.com/foambubble/foam/commits?author=njnygaard" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://www.nitwit.se"><img src="https://avatars.githubusercontent.com/u/1382124?v=4?s=60" width="60px;" alt=""/><br /><sub><b>Mark Dixon</b></sub></a><br /><a href="https://github.com/foambubble/foam/commits?author=nitwit-se" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/joeltjames"><img src="https://avatars.githubusercontent.com/u/3732400?v=4?s=60" width="60px;" alt=""/><br /><sub><b>Joel James</b></sub></a><br /><a href="https://github.com/foambubble/foam/commits?author=joeltjames" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.ryo33.com"><img src="https://avatars.githubusercontent.com/u/8780513?v=4?s=60" width="60px;" alt=""/><br /><sub><b>Hashiguchi Ryo</b></sub></a><br /><a href="https://github.com/foambubble/foam/commits?author=ryo33" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://movermeyer.com"><img src="https://avatars.githubusercontent.com/u/1459385?v=4?s=60" width="60px;" alt=""/><br /><sub><b>Michael Overmeyer</b></sub></a><br /><a href="https://github.com/foambubble/foam/commits?author=movermeyer" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/derrickqin"><img src="https://avatars.githubusercontent.com/u/3038111?v=4?s=60" width="60px;" alt=""/><br /><sub><b>Derrick Qin</b></sub></a><br /><a href="https://github.com/foambubble/foam/commits?author=derrickqin" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/zomars/"><img src="https://avatars.githubusercontent.com/u/3504472?v=4?s=60" width="60px;" alt=""/><br /><sub><b>Omar López</b></sub></a><br /><a href="https://github.com/foambubble/foam/commits?author=zomars" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://robincn.com"><img src="https://avatars.githubusercontent.com/u/1583193?v=4?s=60" width="60px;" alt=""/><br /><sub><b>Robin King</b></sub></a><br /><a href="https://github.com/foambubble/foam/commits?author=RobinKing" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://twitter.com/deegovee"><img src="https://avatars.githubusercontent.com/u/4730170?v=4?s=60" width="60px;" alt=""/><br /><sub><b>Dheepak </b></sub></a><br /><a href="https://github.com/foambubble/foam/commits?author=dheepakg" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/daniel-vera-g"><img src="https://avatars.githubusercontent.com/u/28257108?v=4?s=60" width="60px;" alt=""/><br /><sub><b>Daniel VG</b></sub></a><br /><a href="https://github.com/foambubble/foam/commits?author=daniel-vera-g" title="Documentation">📖</a></td>
   </tr>
 </table>
 
@@ -199,7 +218,7 @@ If that sounds like something you're interested in, I'd love to have you along o
 
 ## License
 
-Foam is licensed under the [MIT license](license).
+Foam is licensed under the [MIT license](LICENSE.txt).
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
 [graph-visualisation]: features/graph-visualisation.md "Graph Visualisation"
