@@ -2531,10 +2531,10 @@ better-queue@^3.8.10:
     node-eta "^0.9.0"
     uuid "^3.0.0"
 
-bezier-js@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.npmjs.org/bezier-js/-/bezier-js-4.0.3.tgz#9e076d66f609bca9fc08dd22201596d52d3cc49d"
-  integrity sha512-w85AFcZ7EkszFgxuHYQ2/BI2G7H5bEotZD9vcg8+Hx4S8zF2odJBoFSFvGbcFDH5ScSxG27/IhW03SigVmkXNQ==
+bezier-js@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/bezier-js/-/bezier-js-4.1.1.tgz#414df656833104e86765c0fa5e31439fb3e83a34"
+  integrity sha512-oVOS6SSFFFlfnZdzC+lsfvhs/RRcbxJ47U04M4s5QIBaJmr3YWmTIL3qmrOK9uW+nUUcl9Jccmo/xpTrG+bBoQ==
 
 big.js@^5.2.2:
   version "5.2.2"
@@ -2884,10 +2884,10 @@ caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001196:
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001197.tgz#47ad15b977d2f32b3ec2fe2b087e0c50443771db"
   integrity sha512-8aE+sqBqtXz4G8g35Eg/XEaFr2N7rd/VQ6eABGBmNtcB8cN6qNJhMi6oSFy4UWWZgqgL3filHT8Nha4meu3tsw==
 
-canvas-color-tracker@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.npmjs.org/canvas-color-tracker/-/canvas-color-tracker-1.1.3.tgz#3abe6336511dd21085f02a2d37f2143873634d4c"
-  integrity sha512-sDkzWXskrpLG1wNeZxU9bLbL+PgdaLDWYV/Q9LrY0IpYCCWHvE9c8YCukWrFQi+FT5oonxPB1b85M7GsRZVx1Q==
+canvas-color-tracker@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.npmjs.org/canvas-color-tracker/-/canvas-color-tracker-1.1.4.tgz#4f1ffce1ea91a8092b179ee73330a363a312e7db"
+  integrity sha512-Ppqr1xlcSAOGBRdKruGCyZ6oi1V19iDWrzQ6qh5ZZ4BccaUcOTGnuuCOWCDU/tWtNl57V0ZGaPt71GoL7aghoQ==
   dependencies:
     tinycolor2 "^1.4.2"
 
@@ -3745,10 +3745,17 @@ csstype@^3.0.2:
   resolved "https://registry.npmjs.org/csstype/-/csstype-3.0.7.tgz#2a5fb75e1015e84dd15692f71e89a1450290950b"
   integrity sha512-KxnUB0ZMlnUWCsx2Z8MUsr6qV6ja1w9ArPErJaJaF8a5SOWoHLIszeCTKGRGRgtLgYrs1E8CHkNSP1VZTTPc9g==
 
-d3-array@2, d3-array@>=2.5, d3-array@^2.11.0, d3-array@^2.3.0:
+d3-array@2, d3-array@>=2.5, d3-array@^2.3.0:
   version "2.11.0"
   resolved "https://registry.npmjs.org/d3-array/-/d3-array-2.11.0.tgz#5ed6a2869bc7d471aec8df9ff6ed9fef798facc4"
   integrity sha512-26clcwmHQEdsLv34oNKq5Ia9tQ26Y/4HqS3dQzF42QBUqymZJ+9PORcN1G52bt37NsL2ABoX4lvyYZc+A9Y0zw==
+  dependencies:
+    internmap "^1.0.0"
+
+d3-array@^2.12.1:
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/d3-array/-/d3-array-2.12.1.tgz#e20b41aafcdffdf5d50928004ececf815a465e81"
+  integrity sha512-B0ErZK/66mHtEsR1TkPEEkwdy+WDesimkM5gpZr5Dsg54BiTA5RXtYW5qTLIAcekaS9xfZrzBLF/OAkB3Qn1YQ==
   dependencies:
     internmap "^1.0.0"
 
@@ -3757,10 +3764,10 @@ d3-axis@2:
   resolved "https://registry.npmjs.org/d3-axis/-/d3-axis-2.0.0.tgz#40aebb65626ffe6d95e9441fbf9194274b328a8b"
   integrity sha512-9nzB0uePtb+u9+dWir+HTuEAKJOEUYJoEwbJPsZ1B4K3iZUgzJcSENQ05Nj7S4CIfbZZ8/jQGoUzGKFznBhiiQ==
 
-d3-binarytree@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.npmjs.org/d3-binarytree/-/d3-binarytree-0.1.8.tgz#dc8d37e7dd4a43c0e78dd99bbc4c295b935696df"
-  integrity sha512-+N2TjL9CAGMkjwlnsx/wUiHJtAnik6S63AfvWS6RYkraD60ixgI4S7q3sMR5ugLMXWckWhZfvUpZQzwAzkm/lA==
+d3-binarytree@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/d3-binarytree/-/d3-binarytree-0.2.0.tgz#10601b89fc966b22ee2bd1a8e9ee4d847dfd0014"
+  integrity sha512-Z4khfbrBgtbv0M2QSQBaIajxiT6hwkxGt0AoDnTXCWDyyH+Okqy2UU3sXzV01zL5lC75dFAMJ0ftxSKTCr28VA==
 
 d3-brush@2:
   version "2.1.0"
@@ -3833,14 +3840,14 @@ d3-fetch@2:
   dependencies:
     d3-dsv "1 - 2"
 
-d3-force-3d@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.npmjs.org/d3-force-3d/-/d3-force-3d-2.2.0.tgz#83515f3fd98d6705442047e9eac0749dfd2654bc"
-  integrity sha512-yFuBpt4onqnVyRGN3PCW+KpeOMcMCOStvE7QIXIOUu0d+Yn4SqSnA8K6UXjYmMIVE9STtA/+MOSUOBHxbi+NAg==
+d3-force-3d@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.npmjs.org/d3-force-3d/-/d3-force-3d-2.3.2.tgz#3eba201e9f72456decb3b39c534e8ee6eb6e9a76"
+  integrity sha512-jkNDhUmSCAAq7dxtnILVzn7uOClBZt3YMhupBEoKI9RrvR3x995iUDdbj3VL33ByJAtHZwzytUxdh3zKfvf/iw==
   dependencies:
-    d3-binarytree "^0.1.8"
+    d3-binarytree "^0.2.0"
     d3-dispatch "^2.0.0"
-    d3-octree "^0.1.8"
+    d3-octree "^0.2.0"
     d3-quadtree "^2.0.0"
     d3-timer "^2.0.0"
 
@@ -3877,10 +3884,10 @@ d3-hierarchy@2:
   dependencies:
     d3-color "1 - 2"
 
-d3-octree@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.npmjs.org/d3-octree/-/d3-octree-0.1.8.tgz#a7b16d0432b9551ad2b1145f2c25b5461fd991cf"
-  integrity sha512-DCN9v/itq78qhZVbhOE/y7tLUQUHMtdKUg5N9aUDusgN5ANbNvGJFD1C6yjY8KeEoB8ONHzwN8xEoHb9Ww9joQ==
+d3-octree@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/d3-octree/-/d3-octree-0.2.0.tgz#d3b3e578733cd0bbb7b6a15f80b0d7b38ab2e54c"
+  integrity sha512-yPoIxKr4xvZNyKK2bkJybafrNKtBVERbGTUVBovyWxWDQaWnJfWO4ai1jnyBrCeMzpVm/OTAJw2V+EJ9HCuLbQ==
 
 "d3-path@1 - 2", d3-path@2:
   version "2.0.0"
@@ -3921,6 +3928,17 @@ d3-scale@3, d3-scale@^3.2.3:
     d3-time "1 - 2"
     d3-time-format "2 - 3"
 
+d3-scale@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.npmjs.org/d3-scale/-/d3-scale-3.3.0.tgz#28c600b29f47e5b9cd2df9749c206727966203f3"
+  integrity sha512-1JGp44NQCt5d1g+Yy+GeOnZP7xHo0ii8zsQp6PGzd+C1/dl0KGsp9A7Mxwp+1D1o4unbTTxVdU/ZOIEBoeZPbQ==
+  dependencies:
+    d3-array "^2.3.0"
+    d3-format "1 - 2"
+    d3-interpolate "1.2.0 - 2"
+    d3-time "^2.1.1"
+    d3-time-format "2 - 3"
+
 d3-selection@2, d3-selection@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/d3-selection/-/d3-selection-2.0.0.tgz#94a11638ea2141b7565f883780dabc7ef6a61066"
@@ -3944,6 +3962,13 @@ d3-shape@2:
   version "2.0.0"
   resolved "https://registry.npmjs.org/d3-time/-/d3-time-2.0.0.tgz#ad7c127d17c67bd57a4c61f3eaecb81108b1e0ab"
   integrity sha512-2mvhstTFcMvwStWd9Tj3e6CEqtOivtD8AUiHT8ido/xmzrI9ijrUUihZ6nHuf/vsScRBonagOdj0Vv+SEL5G3Q==
+
+d3-time@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.npmjs.org/d3-time/-/d3-time-2.1.1.tgz#e9d8a8a88691f4548e68ca085e5ff956724a6682"
+  integrity sha512-/eIQe/eR4kCQwq7yxi7z4c6qEXf2IYGcjoWB5OOQy4Tq9Uv39/947qlDcN2TLkiTzQWzvnsuYPB9TrWaNfipKQ==
+  dependencies:
+    d3-array "2"
 
 "d3-timer@1 - 2", d3-timer@2, d3-timer@^2.0.0:
   version "2.0.0"
@@ -4036,10 +4061,10 @@ date-fns@^2.14.0:
   resolved "https://registry.npmjs.org/date-fns/-/date-fns-2.17.0.tgz#afa55daea539239db0a64e236ce716ef3d681ba1"
   integrity sha512-ZEhqxUtEZeGgg9eHNSOAJ8O9xqSgiJdrL0lzSSfMF54x6KXWJiOH/xntSJ9YomJPrYH/p08t6gWjGWq1SDJlSA==
 
-debounce@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/debounce/-/debounce-1.2.0.tgz#44a540abc0ea9943018dc0eaa95cce87f65cd131"
-  integrity sha512-mYtLl1xfZLi1m4RtQYlZgJUNQjl4ZxVnHzIR8nLLgi4q1YT8o/WM+MK/f8yfcc9s5Ir5zRaPZyZU6xs1Syoocg==
+debounce@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/debounce/-/debounce-1.2.1.tgz#38881d8f4166a5c5848020c11827b834bcb3e0a5"
+  integrity sha512-XRRe6Glud4rd/ZGQfiV1ruXSfbvfJedlV9Y6zOlP+2K04vBYiJEte6stfFkCP03aMnY5tsipamumUjL14fofug==
 
 debug@2, debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"
@@ -5373,24 +5398,24 @@ for-in@^1.0.2:
   resolved "https://registry.npmjs.org/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
   integrity sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=
 
-force-graph@^1.35.1:
-  version "1.36.2"
-  resolved "https://registry.npmjs.org/force-graph/-/force-graph-1.36.2.tgz#e58fcc35094f1010b2309004d3394d727b56ff7e"
-  integrity sha512-o+KIrV+NY4v/RSu2Srr65r0Yhme4wUmxmYftAIRJ/i4fFiH93EID0SVexV97pa985rPBcGkABi48You99AgvJw==
+force-graph@^1.40.3:
+  version "1.41.1"
+  resolved "https://registry.npmjs.org/force-graph/-/force-graph-1.41.1.tgz#7e840ffbaad41674235e4fbbc69fe085e5adf119"
+  integrity sha512-rEgca1WGhAa3d5tQUOFeDe9qeefwO5bHjI9JN+V/lLmG5sSmCKm+eoW3kQHDLaHdAA3TYlNww3LkqBLHkkdvRg==
   dependencies:
     "@tweenjs/tween.js" "^18.6.4"
     accessor-fn "^1.3.0"
-    bezier-js "^4.0.3"
-    canvas-color-tracker "^1.1.3"
-    d3-array "^2.11.0"
+    bezier-js "^4.1.1"
+    canvas-color-tracker "^1.1.4"
+    d3-array "^2.12.1"
     d3-drag "^2.0.0"
-    d3-force-3d "^2.2.0"
-    d3-scale "^3.2.3"
+    d3-force-3d "^2.3.2"
+    d3-scale "^3.3.0"
     d3-scale-chromatic "^2.0.0"
     d3-selection "^2.0.0"
     d3-zoom "^2.0.0"
-    index-array-by "^1.3.0"
-    kapsule "^1.13.3"
+    index-array-by "^1.3.1"
+    kapsule "^1.13.4"
     lodash.throttle "^4.1.1"
 
 fork-ts-checker-webpack-plugin@4.1.6:
@@ -5909,10 +5934,10 @@ gatsby-telemetry@^2.0.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-kb@latest:
-  version "0.7.0"
-  resolved "https://registry.npmjs.org/gatsby-theme-kb/-/gatsby-theme-kb-0.7.0.tgz#74638a4f74b10a50b421b6f180697898fe70c049"
-  integrity sha512-1CJkIccGtn/Qm6TbsQS0i67CDq6UlMhtyiMJgN75k7G87RNti379syofNHedA2lnzW6jnCG0PhZ2L21+TDtJeg==
+gatsby-theme-kb@^0.7.5:
+  version "0.7.5"
+  resolved "https://registry.npmjs.org/gatsby-theme-kb/-/gatsby-theme-kb-0.7.5.tgz#251d6fcf4b8f7b88412273cb1d78ccddfb685bbb"
+  integrity sha512-0CcPlEwoyZTP8l5jYplsrpW/yHuZoUFkw8O2n7Ygv39ncztboD2rFq3aoeGGIkKXMd7wELQ1SJ+z5inaw6h5hw==
   dependencies:
     "@gatsby-project-kb/transformer-wiki-references" "^0.3.0"
     "@mdx-js/mdx" "^1.6.22"
@@ -5933,7 +5958,7 @@ gatsby-theme-kb@latest:
     gatsby-remark-double-parenthesis-link "^0.1.2"
     gatsby-remark-wiki-link "^0.3.0"
     gatsby-source-filesystem "^3.4.0"
-    note-graph "^0.1.5"
+    note-graph "^0.2.0"
     path-browserify "^1.0.1"
     postcss "^8.2.4"
     prop-types "^15.7.2"
@@ -6855,10 +6880,10 @@ indent-string@^4.0.0:
   resolved "https://registry.npmjs.org/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
   integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
 
-index-array-by@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/index-array-by/-/index-array-by-1.3.0.tgz#db5b37fcc75712d9b2393003b4106050af53d130"
-  integrity sha512-INSV8BJwW/IF9wj/hzq6tDQhc3AYBnQ/wY9mNIGiPEvxDI1sR0OaL1VQg74ZIZqg3fbmW5zQgf2Bxc51zDwRZg==
+index-array-by@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.npmjs.org/index-array-by/-/index-array-by-1.3.1.tgz#48595af44efb32f514efd2e46b88de05a508344c"
+  integrity sha512-e3RmATJZXJWZg9obaLdgPZcz42mzCrr4RuxB/6YaVds7tkUjPRw3Zaebs5YXo4WPyCA0Y9ZKcGYHRqGbGhoU8Q==
 
 indexes-of@^1.0.1:
   version "1.0.1"
@@ -7638,12 +7663,12 @@ jsonfile@^6.0.1:
     array-includes "^3.1.2"
     object.assign "^4.1.2"
 
-kapsule@^1.13.3:
-  version "1.13.3"
-  resolved "https://registry.npmjs.org/kapsule/-/kapsule-1.13.3.tgz#01092e9ee1f1da10e511d91b45e57198b1fe7b90"
-  integrity sha512-Qgzn1p0ywJsXJ3NBjIGst/EGvH2VF+YeVsVfWHZ1ZFX1v7AJfz215OWf3mRFy6NZBbN67yc1qUxAuJU+vuTtAA==
+kapsule@^1.13.4:
+  version "1.13.4"
+  resolved "https://registry.npmjs.org/kapsule/-/kapsule-1.13.4.tgz#0fe37264556d9b222c39e849eb48ca8766fcf0c9"
+  integrity sha512-WZz+NTLKrnAfOkWw+o94HdlO+6QqBretdr8EcNSRVxFPxxyOnnBdpoczwZxYzGZqLJDCJJm9P0gRyds+FT+UDA==
   dependencies:
-    debounce "^1.2.0"
+    debounce "^1.2.1"
 
 keyv@3.0.0:
   version "3.0.0"
@@ -8602,16 +8627,16 @@ normalize-url@^4.1.0:
   resolved "https://registry.npmjs.org/normalize-url/-/normalize-url-4.5.0.tgz#453354087e6ca96957bd8f5baf753f5982142129"
   integrity sha512-2s47yzUxdexf1OhyRi4Em83iQk0aPvwTddtFz4hnSSw9dCEsLEGf6SwIO8ss/19S9iBb5sJaOuTvTGDeZI00BQ==
 
-note-graph@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.npmjs.org/note-graph/-/note-graph-0.1.5.tgz#1a5b2d6cb5a25f1e73ceeb22f31cfb1e19c4bc1a"
-  integrity sha512-yodzbtZxuS+ivzKKtMxoFteEXLKZlwdQvOZl44UVjlrkuIio9UymJXAF64k447qzO0SbH5kmpDOsz+1vNePKmQ==
+note-graph@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/note-graph/-/note-graph-0.2.0.tgz#087c671305474816fce86104304514b02aa7f941"
+  integrity sha512-bn3xL7yOL1B1/1bG4/6rY3z4jB9cdK2rAtHIrrRGSybhQ9SF2gK91cGmCOCG0+3ntAyyrctHcd+bJEZpye4fYQ==
   dependencies:
     d3 "^6.2.0"
     d3-color "^2.0.0"
     d3-force "^2.1.1"
     d3-scale "^3.2.3"
-    force-graph "^1.35.1"
+    force-graph "^1.40.3"
     throttle-debounce "^3.0.1"
 
 npm-run-path@^2.0.0:
