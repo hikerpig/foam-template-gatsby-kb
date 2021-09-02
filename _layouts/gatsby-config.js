@@ -41,6 +41,11 @@ module.exports = {
               noInlineHighlight: true,
             },
           })
+
+          // add math support
+          defaultPluginMdx.options.remarkPlugins.push(require('remark-math'))
+          if (!defaultPluginMdx.options.rehypePlugins) defaultPluginMdx.options.rehypePlugins = []
+          defaultPluginMdx.options.rehypePlugins.push(require('rehype-katex'))
           return defaultPluginMdx
         },
       },

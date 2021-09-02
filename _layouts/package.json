@@ -20,6 +20,8 @@
     "gatsby-remark-prismjs": "^5.10.0",
     "gatsby-theme-kb": "^0.7.7",
     "prism-themes": "^1.8.0",
-    "prismjs": "^1.24.1"
+    "prismjs": "^1.24.1",
+    "rehype-katex": "^5.0.0",
+    "remark-math": "^3.0.1"
   }
 }
