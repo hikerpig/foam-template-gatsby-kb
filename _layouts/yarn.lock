@@ -5485,11 +5485,6 @@ flexsearch@^0.6.32:
   resolved "https://registry.npmjs.org/flexsearch/-/flexsearch-0.6.32.tgz#1e20684d317af65baa445cdd9864a5f5b320f510"
   integrity sha512-EF1BWkhwoeLtbIlDbY/vDSLBen/E5l/f1Vg7iX5CDymQCamcx1vhlc3tIZxIDplPjgi0jhG37c67idFbjg+v+Q==
 
-flexsearch@^0.7.21:
-  version "0.7.21"
-  resolved "https://registry.npmjs.org/flexsearch/-/flexsearch-0.7.21.tgz#0f5ede3f2aae67ddc351efbe3b24b69d29e9d48b"
-  integrity sha512-W7cHV7Hrwjid6lWmy0IhsWDFQboWSng25U3VVywpHOTJnnAZNPScog67G+cVpeX9f7yDD21ih0WDrMMT+JoaYg==
-
 follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   version "1.13.2"
   resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.13.2.tgz#dd73c8effc12728ba5cf4259d760ea5fb83e3147"
@@ -6015,10 +6010,10 @@ gatsby-telemetry@^2.13.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-kb@^0.7.7:
-  version "0.7.7"
-  resolved "https://registry.npmjs.org/gatsby-theme-kb/-/gatsby-theme-kb-0.7.7.tgz#58576d460e2a632c5c482992c1be9d6ab24b3a0f"
-  integrity sha512-DD9JCK+rFvvg9zx7LccPsyaU5p7zJoFkcSg6xRbhWts/chRV3/Ox/HVQUklnJjbTEd6IPo3Lqfo66hBYNTSbog==
+gatsby-theme-kb@^0.7.8:
+  version "0.7.8"
+  resolved "https://registry.npmjs.org/gatsby-theme-kb/-/gatsby-theme-kb-0.7.8.tgz#acd93bfd138a75c4d5ebea3fdd973838f14cff8c"
+  integrity sha512-elp24U++xENiYdcf6ivE/SGWND53PpyTHxcAKDPe106WPkFzpi/Bp1PQeAHmv/9cELicrd2I+5Y5nmPEs6pEgQ==
   dependencies:
     "@gatsby-project-kb/transformer-wiki-references" "^0.3.0"
     "@mdx-js/mdx" "^1.6.22"
@@ -6028,7 +6023,7 @@ gatsby-theme-kb@^0.7.7:
     autoprefixer "^10.3.3"
     classnames "^2.3.1"
     downshift "^6.1.7"
-    flexsearch "^0.7.21"
+    flexsearch "^0.6.32"
     gatsby-plugin-local-search "^2.0.1"
     gatsby-plugin-mdx "^2.13.0"
     gatsby-plugin-postcss "^4.13.0"
