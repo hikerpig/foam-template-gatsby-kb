@@ -18,7 +18,7 @@
     "gatsby-plugin-copy-files-enhanced": "^1.1.1",
     "gatsby-remark-copy-linked-files": "^4.10.0",
     "gatsby-remark-prismjs": "^5.10.0",
-    "gatsby-theme-kb": "^0.7.8",
+    "gatsby-theme-kb": "^0.8.0",
     "prism-themes": "^1.8.0",
     "prismjs": "^1.24.1",
     "rehype-katex": "^5.0.0",
